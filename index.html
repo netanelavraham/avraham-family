@@ -33,13 +33,33 @@
 }
 
 
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+
+
+
 </style>
   </head>
   <body>
+    <div>
     <iframe class="ex" width="560" height="315" src="https://www.youtube.com/embed/JCviaNyuMIM" frameborder="0" allowfullscreen></iframe><p class="oblique">בכינרת עם אופנוע ים</p>
     <iframe class="ex" width="560" height="315" src="https://www.youtube.com/embed/mhhn3YoioeY" frameborder="0" allowfullscreen></iframe><p class="oblique">קליפ קטן לרגל 43 שנות נישואין</p>
     <iframe class="ex" width="560" height="315" src="https://www.youtube.com/embed/Zhc3C8uL9ls" frameborder="0" allowfullscreen></iframe><p class="oblique">עוד קליפ קטן</p>
-<a href="https://www.youtube.com/embed/JCviaNyuMIM" download>xf</a>
+</div>
 
      </body>
 </html>
