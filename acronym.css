@@ -1,0 +1,10 @@
+.alter{color:black;padding:0 2px;}
+.alter:nth-of-type(odd){color:blue;}
+
+
+.form-wrapper{background-color:#ececec; padding:15px;}
+.xxxform-group{display:inline-block;width:90%;}
+
+#userInput{width:60%;}
+
+
